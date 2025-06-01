@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Flex = () => {
+const Flex = ({children, className}) => {
   return (
-    <div>Flex</div>
+    <div className={`flex justify-between items-center flex-wrap ${className}`}>{children}</div>
   )
 }
 
