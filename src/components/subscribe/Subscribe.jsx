@@ -4,7 +4,7 @@ import Flex from '../../layouts/Flex'
 
 const Subscribe = () => {
   return (
-    <div className='subscribe'>
+    <div className='subscribe py-[60px]'>
       <Container>
         <div className='py-[36px] px-[64px] bg-black rounded-[40px]'>
           <Flex>
