@@ -28,7 +28,7 @@ const TopSelling = () => {
   },
 ]
 return (
-  <div className='py-[70px]'>
+  <div className='py-[70px] font-secondary'>
     <Container>
       <h2 className='text-subheading font-black text-center mb-[55px]'>Top Selling</h2>
       <Flex className="justify-start gap-x-[20px]">

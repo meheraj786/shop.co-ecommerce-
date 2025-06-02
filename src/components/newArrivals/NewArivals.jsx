@@ -28,7 +28,7 @@ const NewArivals = () => {
     },
   ]
   return (
-    <div className='py-[70px]'>
+    <div className='py-[70px] font-secondary'>
       <Container>
         <h2 className='text-subheading font-black text-center mb-[55px]'>New Arrivals</h2>
         <Flex className="justify-start gap-x-[20px]">
@@ -47,7 +47,7 @@ const NewArivals = () => {
 
         </Flex>
         <div className='text-center mt-9'>
-        <Button className="border bg-white !text-black">View More</Button>
+        <Button className="border  bg-white !text-black">View More</Button>
 
         </div>
       </Container>

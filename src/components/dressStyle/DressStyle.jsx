@@ -4,7 +4,7 @@ import Flex from '../../layouts/Flex'
 
 const DressStyle = () => {
   return (
-    <div className=''>
+    <div className='font-secondary'>
       <Container>
         <div className='rounded-[40px] dressstyle py-[70px] px-[64px] bg-[#F0F0F0]'>
         <h2 className='text-black font-primary font-black text-subheading text-center'>BROWSE BY DRESS STYLE</h2>

@@ -1,6 +1,14 @@
 import React from 'react'
 import Flex from '../../layouts/Flex'
 import Container from '../../layouts/Container'
+import Logo from '../../layouts/Logo'
+import { RxCross2 } from "react-icons/rx";
+import { IoMdSearch } from "react-icons/io";
+import { FiShoppingCart } from "react-icons/fi";
+import { RxAvatar } from "react-icons/rx";
+
+
+
 
 const Navbar = () => {
   const navItems=["Shop", 'On Sale', 'New Arrivals', 'Brands']
@@ -8,9 +16,10 @@ const Navbar = () => {
     <>
     <div className="bar py-[9px] font-secondary text-white bg-black text-center">
       <Container>
-      <Flex className='w-[70%] ms-auto'>
-        <p>Sign up and get 20% off to your first order. <span className='font-medium'>Sign Up Now</span></p>
-        <span>x</span>
+      <Flex className='w-[66%] ms-auto'>
+        <p>Sign up and get 20% off to your first order. <span className='font-medium border-b'>Sign Up Now</span></p>
+        <span><RxCross2 />
+        </span>
       </Flex>
 
       </Container>
@@ -19,7 +28,9 @@ const Navbar = () => {
     <div className="navbar sticky top-0 left-0 z-[9999] font-secondary py-[24px] text-black bg-white shadow-2xl">
       <Container>
         <Flex className='gap-x-10'>
-          <div className="logo">logo</div>
+          <div className="logo">
+            <Logo/>
+          </div>
           <ul className=''>
             <Flex className="gap-x-6">
               {
@@ -29,13 +40,14 @@ const Navbar = () => {
               }
             </Flex>
           </ul>
-          <div className="input w-[50%]">
+          <div className="input relative w-[45%]">
             <input type="text" className='py-3 px-[52px] w-full rounded-[62px] bg-[#F0F0F0]' placeholder='Search for products...' />
+            <IoMdSearch className='absolute left-[16px] top-1/2 -translate-y-1/2 opacity-40 text-[24px]' />
           </div>
           <div className="icons">
-            <Flex>
-              icon
-              icon
+            <Flex className="gap-x-[15px]">
+            <FiShoppingCart className='text-[24px]' />
+            <RxAvatar className='text-[24px]' />
             </Flex>
           </div>
         </Flex>
