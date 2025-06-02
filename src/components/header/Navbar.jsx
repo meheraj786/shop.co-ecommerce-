@@ -16,7 +16,7 @@ const Navbar = () => {
       </Container>
 
     </div>
-    <div className="navbar font-secondary py-[24px] text-black bg-white shadow-2xl">
+    <div className="navbar sticky top-0 left-0 z-[9999] font-secondary py-[24px] text-black bg-white shadow-2xl">
       <Container>
         <Flex className='gap-x-10'>
           <div className="logo">logo</div>
