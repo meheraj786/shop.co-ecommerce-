@@ -60,6 +60,10 @@ const Navbar = () => {
             <RxAvatar className='text-[24px]' />
             </Flex>
           </div>
+
+        
+
+
           
           {show ? <IoMdClose onClick={()=>setShow(false)} className='text-[26px]'/> : <IoMdMenu onClick={()=>setShow(true)} className='text-[26px] md:hidden'/>}
           

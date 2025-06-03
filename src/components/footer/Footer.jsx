@@ -149,7 +149,7 @@ const Footer = () => {
           <ul>
             {
               resources.map((item)=>(
-                <li className='my-[15px] text-body-sm md:text-body opacity-60'><a href={item.link}>{item.text}</a></li>
+                <li className='my-[15px] text-body-sm md:text-body opacity-60'><a href={item.link}>{item.text}1</a></li>
 
               ))
             }
