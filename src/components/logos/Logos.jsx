@@ -11,7 +11,7 @@ const Logos = () => {
   return (
     <div className='py-[44px] bg-black'>
       <Container>
-        <Flex>
+        <Flex className="gap-8 md:gap-0">
           <img src={logo1} alt="" />
           <img src={logo2} alt="" />
           <img src={logo3} alt="" />
