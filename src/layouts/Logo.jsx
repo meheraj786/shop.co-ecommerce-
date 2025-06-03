@@ -1,10 +1,10 @@
 import React from 'react'
 import logo from '../assets/logo.png'
 
-const Logo = () => {
+const Logo = ({className}) => {
   return (
     <div>
-      <img src={logo} alt="" />
+      <img className={className} src={logo} alt="" />
     </div>
   )
 }

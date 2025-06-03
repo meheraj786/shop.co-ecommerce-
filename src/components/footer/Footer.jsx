@@ -88,13 +88,13 @@ const Footer = () => {
   ]
 
   return (
-    <div className='py-[88px] font-secondary bg-[#F0F0F0]'>
+    <div className='py-[88px] text-center md:text-left font-secondary bg-[#F0F0F0]'>
       <Container>
-        <Flex className="items-start">
-          <div>
-            <Logo/>
-            <p className='mt-[25px] opacity-60 w-[248px] mb-[35px]'>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
-            <div className="icons w-[148px]">
+        <Flex className="items-start justify-center md:justify-between gap-10 px-8 md:px-0 md:gap-0">
+          <div className='w-full md:w-auto'>
+            <Logo className="mx-auto md:mx-0"/>
+            <p className='mt-[25px] mx-auto md:mx-0 opacity-60 w-[248px] mb-[35px]'>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+            <div className="icons mx-auto md:mx-0 w-[148px]">
               <Flex>
                 <span className='p-[9px] border border-gray-200 text-black hover:bg-black hover:text-white rounded-full cursor-pointer'><FaTwitter />
                 </span>
@@ -108,11 +108,11 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h3 className='text-subtitle font-bold mb-[26px] '>COMPANY</h3>
+            <h3 className='text-subtitle-sm md:text-subtitle font-bold mb-[26px] '>COMPANY</h3>
             <ul>
             {
               company.map((item)=>(
-                <li className='my-[15px] opacity-60'><a href={item.link}>{item.text}</a></li>
+                <li className='my-[15px] text-body-sm md:text-body opacity-60'><a href={item.link}>{item.text}</a></li>
 
               ))
             }
@@ -120,11 +120,11 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-          <h3 className='text-subtitle font-bold mb-[26px] '>HELP</h3>
+          <h3 className='text-subtitle-sm md:text-subtitle font-bold mb-[26px] '>HELP</h3>
           <ul>
             {
               help.map((item)=>(
-                <li className='my-[15px] opacity-60'><a href={item.link}>{item.text}</a></li>
+                <li className='my-[15px] text-body-sm md:text-body opacity-60'><a href={item.link}>{item.text}</a></li>
 
               ))
             }
@@ -133,11 +133,11 @@ const Footer = () => {
 
           </div>
           <div>
-          <h3 className='text-subtitle font-bold mb-[26px] '>FAQ</h3>
+          <h3 className='text-subtitle-sm md:text-subtitle font-bold mb-[26px] '>FAQ</h3>
           <ul>
             {
               faq.map((item)=>(
-                <li className='my-[15px] opacity-60'><a href={item.link}>{item.text}</a></li>
+                <li className='my-[15px] text-body-sm md:text-body opacity-60'><a href={item.link}>{item.text}</a></li>
 
               ))
             }
@@ -145,11 +145,11 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-          <h3 className='text-subtitle font-bold mb-[26px] '>RESOURCES</h3>
+          <h3 className='text-subtitle-sm md:text-subtitle font-bold mb-[26px] '>RESOURCES</h3>
           <ul>
             {
               resources.map((item)=>(
-                <li className='my-[15px] opacity-60'><a href={item.link}>{item.text}</a></li>
+                <li className='my-[15px] text-body-sm md:text-body opacity-60'><a href={item.link}>{item.text}</a></li>
 
               ))
             }
@@ -158,8 +158,8 @@ const Footer = () => {
           </div>
         </Flex>
         <hr className='mt-[50px] mb-[25px] opacity-10' />
-        <Flex>
-          <p className='opacity-60'>Shop.co © 2000-2023, All Rights Reserved</p>
+        <Flex className="justify-center md:justify-between gap-y-5 md:gap-y-0">
+          <p className='opacity-60 text-body-sm md:text-body'>Shop.co © 2000-2023, All Rights Reserved</p>
           <div className="cards">
             <Flex className='justify-end gap-x-3'>
               <FaCcVisa className='text-[26px]'/>
