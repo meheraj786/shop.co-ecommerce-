@@ -6,7 +6,7 @@ import CountUp from 'react-countup';
 
 const Banner = () => {
   return (
-    <div className='banner bg-[url(assets/bannerImg.png)] text-center md:text-left bg-cover bg-no-repeat bg-center font-secondary relative md:pt-[199px] pt-[100px] pb-[116px]'>
+    <div className='banner bg-[url(assets/bannerImg.png)] text-center md:text-left bg-cover bg-no-repeat md:bg-center bg-left font-secondary relative md:pt-[199px] pt-[100px] pb-[116px]'>
       <Container>
         <Flex>
           <div className="left md:w-1/2">
