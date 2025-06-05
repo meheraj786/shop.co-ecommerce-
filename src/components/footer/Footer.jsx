@@ -158,7 +158,7 @@ const Footer = () => {
           </div>
         </Flex>
         <hr className='mt-[50px] mb-[25px] opacity-10' />
-        <Flex className="justify-center md:justify-between gap-y-5 md:gap-y-0">
+        <Flex className="justify-center flex-col md:flex-row md:justify-between gap-y-5 md:gap-y-0">
           <p className='opacity-60 text-body-sm md:text-body'>Shop.co © 2000-2023, All Rights Reserved</p>
           <div className="cards">
             <Flex className='justify-end gap-x-3'>
