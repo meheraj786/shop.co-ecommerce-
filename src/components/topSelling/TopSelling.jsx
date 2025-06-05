@@ -15,7 +15,7 @@ return (
       <Flex className="md:justify-start justify-center text-center md:text-left md:gap-y-0 gap-y-10 gap-x-[20px]">
       {
         topSellingProducts.map((product)=>(
-          <div className="card md:w-[295px]">
+          <div className="card w-full md:w-[295px]">
           <div className="img mb-[16px] rounded-[20px] w-full h-[298px] bg-[#F0EEED]" style={
             {
               backgroundImage: `url(${product.img})`,
