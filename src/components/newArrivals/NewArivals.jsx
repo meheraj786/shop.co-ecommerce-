@@ -17,7 +17,7 @@ const NewArivals = () => {
         <Flex className="md:justify-start text-center md:text-left md:gap-y-0 gap-y-10 justify-center gap-x-[20px]">
         {
           newArrivalProducts.map((product)=>(
-              <div className="card md:w-[295px]">
+              <div className="card w-full md:w-[295px]">
               <div style={{
                 background: `url(${product.img})`,
               backgroundPosition:"center",
